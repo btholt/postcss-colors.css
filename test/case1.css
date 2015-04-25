@@ -1,0 +1,4 @@
+.overly .specific #selector {
+  color: red;
+  font-size: 12px;
+}

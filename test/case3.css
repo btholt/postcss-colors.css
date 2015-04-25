@@ -1,0 +1,6 @@
+html body div img {
+  background-image: url('this-url-contains-the-color-blue.jpg');
+  visibility: hidden;
+  color: orange;
+  border: 5px lime dashed;
+}
