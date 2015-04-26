@@ -22,7 +22,7 @@ becomes
 ```css
 .some-class {
   color: #FF4136;
-  border: 3px #FF851B orange;
+  border: 3px solid #FF851B;
 }
 ```
 
