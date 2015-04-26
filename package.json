@@ -1,6 +1,6 @@
 {
   "name": "postcss-colors.css",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "PostCSS plugin to transform browser default colors to @mrmrs's better palette",
   "main": "index.js",
   "directories": {
