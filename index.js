@@ -1,9 +1,10 @@
 var helpers = require("postcss-message-helpers");
 var intersection = require('lodash/array/intersection');
+var postCss = require('postcss');
 var colors = require('colors.css');
 var colorsKeys = Object.keys(colors);
 
-module.exports = function plugin() {
+module.exports = postCss.plugin('colors.css', function plugin(opts) {
   return function(style) {
     style.eachDecl(function transformDecl(decl) {
       helpers.try(function() {
@@ -17,4 +18,4 @@ module.exports = function plugin() {
       }, decl.source);
     });
   };
-};
+});
